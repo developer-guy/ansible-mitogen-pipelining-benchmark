@@ -1,0 +1,7 @@
+[ubuntu]
+ubuntu_nginx ansible_host=159.65.115.163
+ubuntu_nginx2 ansible_host=159.65.112.237
+ubuntu_nginx3 ansible_host=159.65.113.114
+
+[ubuntu:vars]
+ansible_user=root

@@ -1,0 +1,8 @@
+---
+- name: run tasks on all hosts
+  become: true
+  hosts: all
+  roles:
+    - geerlingguy.java
+    - geerlingguy.nginx
+    - geerlingguy.docker
